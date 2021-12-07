@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<title>MOKHOBOTHAPELO CV WEBSITE</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+ integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+<body>
+<!---Header--->
+    <section class="header">
+        <nav> 
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="MenuHide()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SKILLS</a></li>
+                    <li><a href="">ACADEMIC INFO</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="MenuShow()"></i>
+
+        </nav>
+        <!---Banner-->
+        <div class="text-box">
+            <h1>WELCOME TO MY WEBSITE</h1>
+            <p>I am a passionate and driven young man with the drive to become an accomplished, successful, and well established entrepreneur and model citizen. 
+                <br>I aim not only at self-empowerment, but also to improve not only those directly around me but also empowering those that come from the community at large, 
+                who, need to know that through hard work and dedication a lot of great things can be achieved. 
+                <br>By equipping them with knowledge of the world at large and what the world expects from them on their journeys to bright and successful futures.</p>
+
+                <a href="" class="hero-button">Learn More</a>
+        </div>
+    </section>
+
+    <!---Course-->
+
+    <section class="skill">
+        <h1>My Programming skills</h1>
+        <p> Below Are a list of Programming skills required for the outside work environment <br> 
+        and the percentage ofcompetency I am in each field respectively.</p>
+
+        <div class="Skills-rows">
+            <div class="columns">
+                <h3>Learning</h3>
+                <p>PHP<br>Python<br>Swift<br>C++</p>
+            </div>
+            <div class="columns">
+                <h3>Intermediate</h3>
+                <p>JavaScript<br>CSS3<br>HTML5<br>MongoDB<br>MySql</p>    
+            </div>
+            <div class="columns">
+                <h3>Proffecient</h3>
+                <p>Java<br>C#</p>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    <!--My Documents-->
+
+    <section class="documents">
+        <h1>My Academic Information</h1>
+        <p>Attached below are some of my academic documents including my CV in pdf</p>
+
+       <div class="rows">
+            <div class="doc-cols">
+                <img src="images/cv.jpg">
+                <div class="layer">
+                    <h3>Curriculum Vitae</h3>
+                </div>
+            </div>
+            <div class="doc-cols">
+                <img src="images/academic record.jpg">
+                <div class="layer">
+                    <h3>Academic Transcript</h3>
+        </div>
+            </div>
+            <div class="doc-cols">
+                <img src="images/cisco.png">
+                <div class="layer">
+                    <h3>Certificates</h3>
+                </div>
+         </div>
+    </div>
+
+    </section>
+
+    <!--Contact Section-->
+    <section class="cta">
+        <h1>Contact Me <br>On Any Of These Social Platforms</h1>
+        <a href="" class="hero-button">CONTACT ME</a>
+
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>DECLARATION</h4>
+        <P>I declare solemnly that the above information is true and correct in all dimensions, and understand that if any of this information is misleading, <br>I may have to be disqualified. I hope this website reaches your dearest considerations as I am looking forward to becoming an asset at your company.</P>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-instagram"></i>
+                <p>Made with <i class="fa fa-heart-o"></i>  by Thapelo Mokhobo</p>
+
+            </div>
+    </section>
+
+    <!--JAvaScript for Menu toggle-->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function MenuShow(){
+            navLinks.style.right= "0";
+        }
+            function MenuHide(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+
+</body>
+</html>
