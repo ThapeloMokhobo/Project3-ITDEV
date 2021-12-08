@@ -242,3 +242,50 @@ h3{
     margin-right: 20px;
     font-weight: 600;
 }
+/*-----About Page*/
+.aboutHeader{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/juice.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    align-items:center;
+}
+.abt-links{
+    display:block;
+    justify-content:space-evenly;
+    text-align: right;
+    padding: 10px;
+}
+.abt-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.abt-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.content-bar{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.content-bar h1{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 600;
+}
+.content-bar p{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 300;
+}
